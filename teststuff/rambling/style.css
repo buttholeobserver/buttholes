@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Whitney Bold';
+    src: url('/assets/fonts/whitney-medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Whitney';
+    src: url('/assets/fonts/whitney-light.otf') format('opentype');
+}
+
+body {
+  background-color: #000;
+  background-image: url('/spacebackgroundneocities.gif');
+  color: #fff;
+  font-family: "Whitney";
+}
+
+hr {
+  border: 1px solid #fff;
+}
+
+.main {
+  background: #000;
+  width: 650px;
+  text-align: left;
+  padding: 10px;
+  margin: auto;
+}
+
+.pfp {
+  border-radius: 100%;
+  width: 50px;
+}
+
+.zone {
+  width: 100%;
+}
+
+.message {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.message:hover {
+  background: #fff3;
+}
+
+.msgpfp {
+  border-radius: 100%;
+  position: absolute;
+  z-index: 1;
+  width: 50px;
+}
+
+.msgtxt {
+  z-index: 2;
+  position: relative;
+  margin-left: 65px;
+}
+
+.user {
+  text-decoration: none;
+  font-family: "Whitney Bold";
+}
+
+.soup {
+  color: #8270fe;
+}
+
+.user:hover {
+  text-decoration: underline;
+}
+
+.yellow {
+  color: #f1c50d;
+}
+
+.maroon {
+  color: #9f0000;
+}
+
+.purp {
+  color: #a16de0;
+}
